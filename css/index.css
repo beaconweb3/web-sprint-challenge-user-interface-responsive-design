@@ -146,6 +146,15 @@ a:visited {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    padding: 2%;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap
+}
+.images img {
+    margin: 2% 2%;
 }
 
 /* about us section */
