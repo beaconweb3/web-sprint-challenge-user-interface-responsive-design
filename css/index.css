@@ -123,10 +123,10 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
 }
 .social i {
-    margin: 0 5%;
+    
+    margin: 20px 5%;
 }
 
 a:link {
@@ -289,7 +289,30 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 428px; 
+    }
+    .h1 h1{
+        flex-direction: column;
+        font-size: 5rem;
+        align-items: center;
+        text-align: center;
+    }
+ 
+    .links {
+        flex-direction: column;
+        justify-content: space-between;
+    }
     
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 20px 10px;
+    }
 
     /* gallery section */
     .gallery {
