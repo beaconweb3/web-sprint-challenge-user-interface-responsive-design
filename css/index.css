@@ -97,6 +97,7 @@ header {
 }
 
 .header {
+    max-width: 1920px; 
     background-color: rgb(0, 14, 17, 0.8);
     position: fixed;
     width: 100%;
@@ -107,7 +108,7 @@ header {
 
 .links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width:100%;
     color: #ffffff;
@@ -115,10 +116,13 @@ header {
 
 .social {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
     width: 100%;
     margin: 20px;
+}
+.social i {
+    margin: 0 2%;
 }
 
 a:link {
