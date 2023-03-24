@@ -94,7 +94,12 @@ header {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+}
 
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
 }
 
 nav .links {
@@ -104,6 +109,14 @@ nav .links {
     width:100%;
     color: #ffffff;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
 a:link {
     color: #ffffff;
 }
