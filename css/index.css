@@ -322,7 +322,8 @@ footer {
     /* about us section */
 
     .about {
-        height: 200vh;
+        height: 120vh;
+
     }
     
     .about h2 {
@@ -332,6 +333,7 @@ footer {
     
     .about-container .text {
         width: 85%;
+
     }
     
     /* contact us section */
@@ -362,5 +364,40 @@ footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+    }
+
+     .mailing{
+        display: flex;
+        flex-direction: column;
+     }
+    .input {
+        width: 27rem;
+        height: 4rem;
+    }
+    .button {
+        width: 27rem;
+        height: 4rem;
+    
+    }
+    .f-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items:center;
+    }
+    .copyright {
+       text-align: center; 
+       font-size: 1.5rem;
+       margin:20px 10%;
     }
 }
