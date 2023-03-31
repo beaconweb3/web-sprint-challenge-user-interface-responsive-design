@@ -181,8 +181,9 @@ a:visited {
 .menu-section {
     display: flex;
     justify-content: center;
-    align-items:;
+    align-items:normal;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .menu-item{
     display: inline-block;
