@@ -290,6 +290,7 @@ footer {
 @media (max-width: 428px) {
     /* header section */
     .header {
+        max-width: 428px;
         display: flex;
         justify-content: flex-start;
         max-width: 428px; 
@@ -366,38 +367,5 @@ footer {
         font-size: 2rem;
     }
 
-    }
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-        width: 100%;
-    }
-
-     .mailing{
-        display: flex;
-        flex-direction: column;
-     }
-    .input {
-        width: 27rem;
-        height: 4rem;
-    }
-    .button {
-        width: 27rem;
-        height: 4rem;
-    
-    }
-    .f-links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        align-items:center;
-    }
-    .copyright {
-       text-align: center; 
-       font-size: 1.5rem;
-       margin:20px 10%;
     }
 
